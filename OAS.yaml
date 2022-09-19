@@ -527,7 +527,27 @@ components:
                                     street_number_letter:
                                       type: string
                                     municipality:
-                                      type: string
+                                      type: object
+                                      properties:
+                                        type:
+                                          type: string
+                                        preview:
+                                          type: string
+                                        instance:
+                                          type: object
+                                          properties:
+                                            date_modified:
+                                              type: string
+                                            label:
+                                              type: string
+                                            alternative_name:
+                                              type: string
+                                            dutch_code:
+                                              type: string
+                                            date_created:
+                                              type: string
+                                        reference:
+                                          type: string
                                     foreign_address_line3:
                                       type: string
                                     street_number:
