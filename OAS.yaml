@@ -317,9 +317,6 @@ components:
         instance:
           type: object
           properties:
-            deadline_timeline:
-              type: array
-              items: {}
             case_relationships:
               type: object
               properties:
