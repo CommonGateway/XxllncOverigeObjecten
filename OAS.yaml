@@ -681,10 +681,6 @@ components:
                   type: array
                   items:
                     type: string
-                ztc_conversiestatus:
-                  type: array
-                  items:
-                    type: string
                 ztc_contactpersoon_plaats:
                   type: array
                   items:
