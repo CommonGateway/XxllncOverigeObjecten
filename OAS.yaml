@@ -594,141 +594,269 @@ components:
                   items:
                     type: string
                 ztc_contactpersoon_email:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kwaliteitscontrole_versleuteling_toelichting:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_einddatum:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvulling_inleverdatum:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_behandelen_adviesverzoek_extern:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_ontvangstdatum:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_organisatie_naam:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvulling_ontvangstdatum:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvulling_toelichting:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_archieftoelichting:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_behandelen_risicoanalyse:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kwaliteitscontrole_aanvullend:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_correspondentie_uitgaand:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_besluit_voorwaarden:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_analyserapport:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_sjabloon_aanhef:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvulling_documenten:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_samenvatting:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kwaliteitscontrole_digitale_handtekening_verificatie_datum:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_conversiestatus_toelichting:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_organisatie_afdeling:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_voorletters:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_conversiestatus:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_plaats:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kwaliteitscontrole_zaakinformatie:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_behandelen_opmerkingen:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_besluit:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_taakveld:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_correspondentie_inkomend:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_extern_kenmerk:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_behandeltype:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_advies:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_typen:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kwaliteitscontrole_digitale_handtekening_dienstverlener:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvulling_verzenddatum:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvulling_opschorten_datum:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_telefoonnummer:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_correspondentie_besluit:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kopiehouders:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_aanhef:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_ontvangstbevestiging:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_startdatum:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvulling_compleet:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvraagformulier:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_sjabloon_correspondentiegegevens:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_adres:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_akkoord_beslissingsbevoegde:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_correspondentie_versturen:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_achternaam:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_besluit_motivatie:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_verzoek_om_aanvulling:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_aanvulling_ontvangen:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kwaliteitscontrole_digitale_handtekening_verificatie:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_uitgaande_brief_inhoud:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_behandelen_adviesverzoek_intern:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_postcode:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_besluit_omschrijving:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_contactpersoon_keuze:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kwaliteitscontrole_documenten:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_beslissingsbevoegde:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_kwaliteitscontrole_versleuteling_verwijderd:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_onderwerp:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_locatie_adres:
-                  type: string
+                  type: array
+                  items:
+                    type: string
                 ztc_sjabloon_correspondentiegegevens_email:
-                  type: string
-                '':
-                  type: string
+                  type: array
+                  items:
+                    type: string
+                ztc_akkoord_beslissingsbevoegde_opmerkingen:
+                  type: array
+                  items:
+                    type: string
             confidentiality:
               type: object
               properties:
                 mapped:
-                  type: string
-                '':
                   type: string
             relations:
               type: object
@@ -745,7 +873,7 @@ components:
                             type: string
                           type:
                             type: string
-                '':
+                reference:
                   type: string
             route:
               type: object
@@ -805,8 +933,6 @@ components:
                           type: string
                         type:
                           type: string
-                    '':
-                      type: string
             active_selection_list:
               type: string
             number:
@@ -913,8 +1039,6 @@ components:
                         reference:
                           type: string
                         preview:
-                          type: string
-                        '':
                           type: string
             number_parent:
               type: integer
