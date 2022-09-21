@@ -313,9 +313,6 @@ components:
         instance:
           type: object
           properties:
-            deadline_timeline:
-              type: array
-              items: {}
             case_relationships:
               type: object
               properties:
@@ -451,7 +448,7 @@ components:
                             gender:
                               type: string
                             is_local_resident:
-                              type: string
+                              type: boolean
                             first_names:
                               type: string
                             family_name:
@@ -571,7 +568,7 @@ components:
                     milestone_label:
                       type: string
                     phase_sequence_number:
-                      type: string
+                      type: integer
                     date_created:
                       type: string
                 reference:
@@ -707,7 +704,7 @@ components:
             aggregation_scope:
               type: string
             result_id:
-              type: string
+              type: integer
             payment_status:
               type: string
             stalled_since:
