@@ -522,8 +522,6 @@ components:
                                       type: string
                                     street_number_letter:
                                       type: string
-                                    municipality:
-                                      type: string
                                     foreign_address_line3:
                                       type: string
                                     street_number:
