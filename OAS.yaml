@@ -986,6 +986,8 @@ components:
             number_master:
               type: integer
             phase:
+              type: string
+            attributes:
               type: array
               items: {}
         reference:
