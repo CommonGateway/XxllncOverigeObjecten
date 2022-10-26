@@ -303,6 +303,217 @@ components:
       x-stoplight:
         id: u8ny902deim6g
       type: object
+      examples:
+        - id: string
+          preview: string
+          type: string
+          instance:
+            case_relationships:
+              child:
+                type: string
+                instance:
+                  rows:
+                    - reference: string
+                      type: string
+                  type: string
+              plain:
+                instance:
+                  rows:
+                    - reference: string
+                      type: string
+                  type: string
+              continuation:
+                instance:
+                  rows:
+                    - reference: string
+                      type: string
+                type: string
+              parent:
+                instance:
+                  rows:
+                    - reference: string
+                      '': string
+                type: string
+            current_deadline:
+              last_modified: string
+            casetype:
+              reference: string
+              instance:
+                name: string
+                version: 0
+              type: string
+              preview: string
+            requestor:
+              preview: string
+              type: string
+              reference: string
+              instance:
+                subject:
+                  preview: string
+                  type: string
+                  reference: string
+                  instance:
+                    use_of_name: string
+                    is_secret: true
+                    noble_title: string
+                    personal_number_a: 0
+                    phone_number: string
+                    date_of_death: string
+                    initials: string
+                    gender: string
+                    is_local_resident: true
+                    first_names: string
+                    family_name: string
+                    place_of_birth: string
+                    date_of_birth: string
+                    date_modified: string
+                    address_correspondence: string
+                    surname: string
+                    prefix: string
+                    address_residence:
+                      preview: string
+                      type: string
+                      reference: string
+                      instance:
+                        zipcode: string
+                        country:
+                          preview: string
+                          type: string
+                          instance:
+                            alpha_one: string
+                            alpha_two: string
+                            code: string
+                            alpha_tree: string
+                            dutch_code: string
+                            label: string
+                          reference: string
+                        foreign_address_line2: string
+                        date_created: string
+                        longitude: string
+                        street_number_suffix: string
+                        latitude: string
+                        date_modified: string
+                        bag_id: string
+                        street_number_letter: string
+                        foreign_address_line3: string
+                        street_number: 0
+                        foreign_address_line1: string
+                        street: string
+                        city: string
+                    mobile_phone_number: string
+                    partner: string
+                    date_created: string
+                    email_address: string
+                    personal_number: string
+                external_subscription: string
+                date_created: string
+                subject_type: string
+                old_subject_identifier: string
+                date_modified: string
+                display_name: string
+            milestone:
+              instance:
+                milestone_sequence_number: 0
+                phase_label: string
+                date_modified: string
+                last_sequence_number: 0
+                milestone_label: string
+                phase_sequence_number: 0
+                date_created: string
+              reference: string
+              preview: string
+              type: string
+            confidentiality:
+              mapped: string
+            relations:
+              instance:
+                rows:
+                  - reference: string
+                    type: string
+              reference: string
+            route:
+              preview: string
+              type: string
+              instance:
+                role:
+                  reference: string
+                  instance:
+                    role_id: 0
+                    date_created: string
+                    date_modified: string
+                    name: string
+                    system_role: true
+                    description: string
+                  type: string
+                  preview: string
+                date_modified: string
+                group:
+                  reference: string
+                  instance:
+                    group_id: 0
+                    date_created: string
+                    description: string
+                    name: string
+                    date_modified: string
+                  preview: string
+                  type: string
+            active_selection_list: string
+            number: 0
+            date_of_completion: string
+            result: string
+            suspension_rationale: string
+            status: string
+            date_created: string
+            date_destruction: string
+            outcome:
+              preview: string
+              type: string
+              instance:
+                retention_period: 0
+                dossier_type: string
+                selection_list_start: string
+                name: string
+                date_created: string
+                selection_list_end: string
+                selection_list: string
+                archival_type: string
+              reference: string
+            aggregation_scope: string
+            result_id: 0
+            payment_status: string
+            stalled_since: string
+            html_email_template: string
+            channel_of_contact: string
+            coordinator:
+              reference: string
+              type: string
+              preview: string
+            date_modified: string
+            archival_state: string
+            subject_external: string
+            number_previous: 0
+            date_target: string
+            correspondence_location: string
+            assignee:
+              instance:
+                subject:
+                  instance:
+                    display_name: string
+                    surname: string
+                    first_names: string
+                    email_address: string
+                    username: string
+                    initials: string
+                    phone_number: string
+                  reference: string
+                  preview: string
+            number_parent: 0
+            premature_completion_rationale: string
+            date_of_registration: string
+            case_location: string
+            number_master: 0
+            phase: string
+          reference: string
       properties:
         id:
           type: string
@@ -775,6 +986,7 @@ components:
             number_master:
               type: integer
             phase:
-              type: string
+              type: array
+              items: {}
         reference:
           type: string
