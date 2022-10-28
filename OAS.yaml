@@ -1065,31 +1065,33 @@ components:
               number:
                 type: integer
               metadata:
-                reference:
-                  type: string
-                type:
-                  type: string
-                instance:
-                  type: object
-                  properties:
-                    appearance:
-                      type: string
-                    category:
-                      type: string
-                    description:
-                      type: string
-                    origin:
-                      type: string
-                    origin_date:
-                      type: string
-                    pronom_format:
-                      type: string
-                    structure:
-                      type: string
-                    trust_level:
-                      type: string
-                    status:
-                      type: string
-                    creation_date:
-                      type: string
+                type: object
+                properties:
+                  reference:
+                    type: string
+                  type:
+                    type: string
+                  instance:
+                    type: object
+                    properties:
+                      appearance:
+                        type: string
+                      category:
+                        type: string
+                      description:
+                        type: string
+                      origin:
+                        type: string
+                      origin_date:
+                        type: string
+                      pronom_format:
+                        type: string
+                      structure:
+                        type: string
+                      trust_level:
+                        type: string
+                      status:
+                        type: string
+                      creation_date:
+                        type: string
 
