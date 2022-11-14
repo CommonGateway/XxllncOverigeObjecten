@@ -1036,12 +1036,12 @@ components:
           items:
             type: object
             properties:
-              'subject':
+              subject:
                 type: object
                 properties:
                   type:
                     type: string
-                  referene:
+                  reference:
                     type: string
               role:
                 type: string
@@ -1094,4 +1094,3 @@ components:
                         type: string
                       creation_date:
                         type: string
-
